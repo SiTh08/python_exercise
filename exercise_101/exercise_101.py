@@ -13,7 +13,11 @@ def area_square(int):
 def area_triangle(length, base):
     return (length * 0.5) * base
 
+def cube(length):
+    return length * length * length
 
+def constant(num):
+    return 8 * num
 
 
 

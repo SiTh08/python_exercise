@@ -1,5 +1,4 @@
 import pytest
-
 from exercise_101 import *
 
 def test_hello_human1():
@@ -28,3 +27,23 @@ def test_area_triangle1():
 
 def test_area_triangle2():
     assert area_triangle(20, 15) == 150
+
+def test_cube():
+    assert cube(2) == 8
+
+def test_cube1():
+    assert cube(5) == 125
+
+def test_cube2():
+    assert cube(10) == 1000
+
+def test_constant():
+    assert constant(3) == 24
+
+def test_constant1():
+    assert constant(8) == 64
+
+def test_constant2():
+    assert constant(20) == 160
+
+
