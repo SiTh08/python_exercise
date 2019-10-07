@@ -8,6 +8,9 @@ def test_full_name1():
 def test_full_name2():
     assert full_name('Andreia', 'Morales') == 'Andreia Morales'
 
+def test_full_name3():
+    assert full_name('Francis', 'Thevipagan') == 'Francis Thevipagan'
+
 def test_calculator_sum():
     assert calculator_sum(2, 4) == 6
 
@@ -19,6 +22,9 @@ def test_calculator_sum3():
 
 def test_calculator_sum4():
     assert calculator_sum(2, 44) == 46
+
+def test_calculator_sum5():
+    assert calculator_sum(3, 47) == 50
 
 def test_calculator_subtract():
     assert calculator_subtract(20, 4) == 16
@@ -32,6 +38,9 @@ def test_calculator_subtract3():
 def test_calculator_subtract4():
     assert calculator_subtract(2, 44) == -42
 
+def test_calculator_subtract5():
+    assert calculator_subtract(50, 25) == 25
+
 def test_calculator_multiply():
     assert calculator_multiply(20, 4) == 80
 
@@ -44,14 +53,23 @@ def test_calculator_multiply3():
 def test_calculator_multiply4():
     assert calculator_multiply(2, 44) == 88
 
+def test_calculator_multiply5():
+    assert calculator_multiply(3, 33) == 99
+
 def test_area_square():
     assert area_square(10) == 100
 
 def test_area_square1():
     assert area_square(13) == 169
 
+def test_area_square2():
+    assert area_square(30) == 900
+
 def test_area_triangle():
     assert area_triangle(10, 10) == 50
 
 def test_area_triangle2():
     assert area_triangle(10, 13) == 65
+
+def test_area_triangle3():
+    assert area_triangle(20, 20) == 200
