@@ -7,15 +7,13 @@
 def hello_human(name):
      return f"Hello {name}, you are a human"
 
-def area_square(length, width):
-    return f"The area of the square is {length * width})"
+def area_square(int):
+    return int * int
 
 def area_triangle(length, base):
-    return f"The area of the square is {(length * 0.5) * base}"
+    return (length * 0.5) * base
 
-# print (hello_human('Francis'))
-# print (area_square(10, 10))
-# print (area_triangle(20, 10))
+
 
 
 

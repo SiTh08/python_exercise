@@ -19,8 +19,8 @@ def calculator_multiply(int_1, int_2):
 
 # Define a area_square, to multiply 2 integers
 
-def area_square(length, width):
-    return length * width
+def area_square(length):
+    return length * length
 
 # Define a area_triangle, to multiply 2 integers
 
