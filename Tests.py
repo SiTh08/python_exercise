@@ -1,4 +1,3 @@
-import pytest
 from exercise_101 import *
 
 def test_hello_human1():
