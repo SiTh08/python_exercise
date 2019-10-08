@@ -28,14 +28,20 @@ def test_area_triangle1():
 def test_area_triangle2():
     assert area_triangle(20, 15) == 150
 
-def test_cube():
-    assert cube(2) == 8
+def test_volume_cube():
+    assert volume_cube(2) == 8
 
-def test_cube1():
-    assert cube(5) == 125
+def test_volume_cube1():
+    assert volume_cube(5) == 125
 
-def test_cube2():
-    assert cube(10) == 1000
+def test_volume_cube2():
+    assert volume_cube(10) == 1000
+
+def test_SA_cube():
+    assert SA_cube(2) == 24
+
+def test_SA_cube1():
+    assert SA_cube(10) == 600
 
 def test_constant():
     assert constant(3) == 24
